@@ -9,3 +9,11 @@ El objetivo es predecir la categoría de agotamiento (Bajo, Medio, Alto) basánd
 - Variables de entrada (X): user_id, day_type, work_hours, screen_time_hours, meetings_count, breaks_taken, after_hours_work, app_switches, sleep_hours, task_completion, isolation_index, fatigue_score, burnout_score,
 - Variable de salida (y): Nivel de Burnout (burnout_risk)
 
+## 3. Estado del Arte
+
+
+
+## 4. Estructura del proyecto
+- notebooks/: Contiene el Análisis Exploratorio de Datos (EDA).
+- data/: Datos del proyecto.
+- requirements.txt: Librerías necesarias.
