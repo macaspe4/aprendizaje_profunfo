@@ -10,8 +10,15 @@ El objetivo es predecir la categoría de agotamiento (Bajo, Medio, Alto) basánd
 - Variable de salida (y): Nivel de Burnout (burnout_risk)
 
 ## 3. Estado del Arte
+| Modelo              | Accuracy | F1-Macro | Tipo            |
+| ------------------- | -------- | -------- | --------------- |
+| Logistic Regression | 74%      | 0.72     | Baseline lineal |
+| XGBoost             | 84%      | 0.81     | Boosting        |
+| Random Forest       | 96.8%    | 0.93     | Ensemble        |
+| MLP (objetivo)      | >95%     | >0.93    | Deep Learning   |
 
-
+Según la documentación del dataset en Kaggle, modelos tradicionales como Logistic Regression alcanzan aproximadamente un 74% de accuracy, mientras que métodos de boosting como XGBoost alcanzan en torno al 84%.
+Algunos usuarios han reportado resultados superiores utilizando Random Forest, llegando hasta 96% de accuracy, lo que sugiere que el dataset presenta patrones altamente separables.
 
 ## 4. Estructura del proyecto
 - notebooks/: Contiene el Análisis Exploratorio de Datos (EDA).
